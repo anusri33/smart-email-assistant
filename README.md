@@ -1,12 +1,42 @@
-# React + Vite
+# 📧 Email Reply Generator (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and responsive **Email Reply Generator** built with **React** and **Material UI (MUI)**. It allows users to input an email and select a desired tone (e.g., professional, casual, friendly), then communicates with a backend API to generate a context-aware reply.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Input your email content
+- Choose a tone for the reply (optional)
+- Generate a suggested reply via backend API
+- Copy the reply to your clipboard with one click
+- Smooth UX with loading indicators and error handling
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Install dependencies
+- npm install
+
+## Run UI
+- npm run dev
+
+## Make sure the backend is running at:
+- http://localhost:8080/api/email/generate
+
+## Tech Stack
+
+Frontend: React + Vite
+
+UI: Material UI (MUI)
+
+HTTP Client: Axios
+
+## To Do / Future Improvements
+
+ Add dark mode toggle
+
+ Add tone detection using AI
+
+ Improve loading experience with skeleton UI
+
+ Deploy to Vercel / Netlify
