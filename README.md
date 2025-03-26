@@ -40,3 +40,43 @@ HTTP Client: Axios
  Improve loading experience with skeleton UI
 
  Deploy to Vercel / Netlify
+
+ # 📧 Smart Email Assistant (Backend)
+
+This is the backend service for the **Smart Email Assistant**, a Spring Boot application that leverages the **Gemini API** to generate professional email replies based on input email content and desired tone.
+
+## 🚀 Features
+
+- Generate professional AI-based email responses
+- Customize tone (e.g., formal, casual, friendly)
+- Integration with Gemini AI API
+- RESTful endpoint to process email content
+
+## 🧱 Tech Stack
+
+- Java 17+
+- Spring Boot
+- WebClient (Spring WebFlux)
+- Gemini API
+
+# 📬 Smart Email Assistant – Chrome Extension
+
+This Chrome Extension enhances your Gmail experience by injecting an AI-powered "Generate Reply" button directly into Gmail's compose window. It connects to a local Spring Boot backend that uses the Gemini API to generate professional email responses based on the email content and selected tone.
+
+---
+
+## 🚀 Features
+
+- Generate AI-based email replies with one click
+- ✉️ Seamlessly integrates with Gmail
+- Customizes tone (e.g., professional, casual)
+- 🌐 Sends request to a local Spring Boot backend API
+
+---
+
+## 🧰 Technologies Used
+
+- **JavaScript** (Vanilla)
+- **MutationObserver** for dynamic UI injection
+- **Gmail DOM manipulation**
+- **Fetch API** for backend communication
